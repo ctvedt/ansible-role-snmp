@@ -1,0 +1,9 @@
+---
+
+- name: Configure SNMPv2 for Cisco IOS
+  import_tasks: v2_cisco_ios.yml
+  when: 
+    - ansible_network_os == 'cisco.ios.ios'
+    - snmp_version == 2
+
+...

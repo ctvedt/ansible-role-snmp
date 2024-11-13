@@ -1,0 +1,16 @@
+---
+
+galaxy_info:
+  author: Christopher W. Tvedt
+  description: Role to configure SNMP on network devices
+  company: ctvedt
+  role_name: snmp
+  namespace: ctvedt_network
+  license: Apache-2.0
+  min_ansible_version: '2.15'
+  platforms: 
+    - name: IOS
+      versions:
+        - any
+  galaxy_tags: []
+dependencies: []

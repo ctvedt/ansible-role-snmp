@@ -1,0 +1,7 @@
+---
+
+snmp_community: 'public'
+snmp_host: '1.2.3.4'
+snmp_version: 2
+
+...
