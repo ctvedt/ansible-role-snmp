@@ -4,8 +4,8 @@
   cisco.ios.ios_snmp_server:
     config:
       hosts:
-        - community_string: {{ snmp_community }}
-          host: {{ snmp_host }}
+        - community_string: "{{ snmp_community }}"
+          host: "{{ snmp_host }}"
           version: 2c
     state: merged
 
