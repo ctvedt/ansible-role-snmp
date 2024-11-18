@@ -4,6 +4,6 @@
   import_tasks: v2_cisco_ios.yml
   when: 
     - ansible_network_os == 'cisco.ios.ios'
-    - snmp_version == 2
+    - snmp_version == '2'
 
 ...
